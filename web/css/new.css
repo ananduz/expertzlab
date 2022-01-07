@@ -1,0 +1,8 @@
+.link{
+    background-color: blue;
+    font-size: 30px;
+}
+.link:hover{
+    background-color: chartreuse;
+    font-size: 80px;
+}

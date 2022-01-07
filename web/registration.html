@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome page</title>
+</head>
+<body>
+    <h1>student registration </h1>
+    <form method="POST" action="welcome.html">
+        
+        <div>
+            <label for=>name</label>
+        </div>
+        <div>
+            <input type=" text" placeholder="enter your name"required name="studentname" minlength="3" maxlength="5">
+        </div>
+        <label for="">email</label>
+        <div>
+            <input type="email" required name="emailid">
+        </div>
+        <div>
+            <label for=>age</label>
+        </div>
+        <div>
+            <input type="number" required name=age>
+        </div>
+    
+        <div>
+            <label>states</label></div>
+            <div>
+            <select name="state" id="">
+            </div>
+                <option value="kl">kerala</option>
+            <option value="ka">karnataka</option>
+            <option value="ga">goa</option>
+            </div>
+            <div>
+                <label>courses</label>
+            </div>
+            <div>
+            courses<input type="text" list="courses"></div>
+            <div>  
+            <datalist id="courses">
+                <option value="data science"></option>
+                <option value="data analytics"></option>
+                <option value="python"></option>
+            </div>
+            <div>
+                <label for="">gender</label>
+            </div>
+            <div>
+                male <input type="radio" name="gender" value="ma">
+            </div>
+            >
+            
+            <div>/home/expertzlab/anandu/bootstrap-5.1.3-dist/css/bootstrap.min.css
+                <label>choose file</label>
+            </div>
+            <div>
+                <input type="file" name files>
+                </div>
+            <div>
+              <label for="">date</label>
+            </div>
+            <input type="date">
+                <div>
+                    <input type="submit" value="registration">
+                    <input type="reset">
+                </div>
+            </datalist>
+        </div>
+            </select>
+        
+    </form>
+    
+</body>
+</html>
